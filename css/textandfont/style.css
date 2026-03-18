@@ -1,0 +1,42 @@
+.box {
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  boo-sizing: border-box;
+  text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    padding: center;
+    box-shadow: 6px 6px 5px red;
+  text-align: center middle;
+    /* text-align: right;
+    text-align: left; */
+  /* text-align: justify;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through; */
+  /* text-decoration-color: 5px solid red;
+    text-decoration-style: 5px solid red underline;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-shadow: 10px 10px 5px red; */
+  font-size: larger;
+  font-size: 20px;
+  /* font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-style: italic; */
+  /* font-size: oblique; */
+  /* font-weight: 200;
+    font-weight: bold;
+    font-weight: darker; */
+  /* font-family: "Bitcount Grid Double Ink", system-ui;
+  font-weight: bold; */
+  /* word-spacing: 10px;
+  letter-spacing: 10px;
+  line-height: 100px; */
+}

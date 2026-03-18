@@ -1,0 +1,58 @@
+
+/* selecto_name{
+proporties:values */
+/* selector in css
+1. universal selector 
+
+2. class selector 
+3. id selector 
+4.tag selector 
+5.group selector
+6.child selector
+7. pseudo-class selector */
+
+/* universal selector */
+/* * {      border: 2px solid black;
+
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* id selector */
+ /* .id_name {
+    border: 2px solid black;
+}
+ /* group selector */
+  /* h1, p {
+    border: 2px solid black; 
+}  */
+
+/* child selector */
+/* div p {
+    border: 2px solid black; 
+}  */
+
+/* 
+pseudo-class selector */
+/* div p1 :hover {
+    border: 2px solid red;
+} */
+
+
+
+/*  properties and values in css */
+/* 1.border */
+.first{
+    border: 2px solid black;
+    border-width: 2px;
+    border-radius: 200px;
+    border -height: 50px;
+    width: 800px;
+    height: 500px;
+    color: red;
+    background-color: turquoise;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png");
+    background-repeat: no-repeat;
+}
+/* 2.margin */
