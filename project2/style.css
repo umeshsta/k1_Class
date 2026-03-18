@@ -1,0 +1,47 @@
+header {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  gap: 800px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 30px;
+}
+
+ul li {
+  list-style: none;
+  gap: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.contact {
+  display: flex;
+  gap: 30px;
+  background-color: rgb(36, 204, 204);
+  padding: 6px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+}
