@@ -1,0 +1,247 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+.first-section {
+  /* display: flex; */
+}
+.bg {
+  display: flex;
+}
+.intro-section {
+  /* border: 2px solid blueviolet; */
+
+  position: relative;
+  /* flex-wrap: wrap; */
+}
+.bg1 {
+  background-color: rgb(32, 31, 31);
+  /* border: 2px solid black; */
+  height: 100vh;
+  width: 70%;
+}
+.bg2 {
+  /* border: 2px solid yellow; */
+  background-color: rgb(244, 202, 16);
+  height: 100vh;
+  width: 30%;
+}
+.intro {
+  /* background-color: brown; */
+  /* border: 2px solid yellow; */
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+  /* height: 100px; */
+  /* width: 100px; */
+  /* gap: 100px; */
+}
+.intro p {
+  /* border: 2px solid blueviolet; */
+  color: rgb(244, 244, 244);
+  /* position: absolute; */
+  /* position: absolute; */
+  border: 2px;
+  /* height: 100px; */
+  /* width: 100px; */
+}
+.intro h1 {
+  color: rgb(255, 213, 0);
+}
+.detail {
+  font-size: 25px;
+}
+.button a {
+  color: rgb(255, 225, 0);
+  text-decoration: none;
+  border: 2px solid rgb(255, 225, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+.image1 {
+  bottom: 0px;
+  position: absolute;
+  left: 800px;
+  /* height: 500px;
+    width: 300px; */
+}
+.image1 img {
+  height: 700px;
+  width: 500px;
+}
+.about-section {
+  background-color: rgb(49, 47, 47);
+  height: 100vh;
+  position: relative;
+}
+.border {
+  border: 9px solid rgb(255, 196, 0);
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+.about-image {
+  border: 9px solid rgb(43, 42, 40);
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.about-image img {
+  height: 350px;
+  width: 300px;
+}
+.about-intro {
+  /* border: 9px solid rgb(175, 124, 23); */
+  height: 350px;
+  width: 700px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.about-intro h1 {
+  color: white;
+  /* text-decoration: underline; */
+}
+.about-intro p {
+  color: white;
+  /* text-decoration: underline; */
+}
+.about-btn1 a {
+  /* border: 2px solid yellow;
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px; */
+  color: rgb(236, 236, 235);
+  text-decoration: none;
+  border: 2px solid rgb(255, 191, 0);
+  padding: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  left: 40%;
+  top: 55%;
+  position: absolute;
+  background-color: rgb(255, 191, 0);
+  border-radius: 5px;
+}
+.about-btn2 a {
+  /* border: 2px solid yellow;
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  color: rgb(255, 225, 0);
+  text-decoration: none;
+  border: 2px solid rgb(255, 225, 0);
+  padding: 10px;
+  border-radius: 5px;
+
+  left: 46%;
+  top: 55%;
+  position: absolute;
+}
+.about-btn1 p {
+  justify-content: center;
+  align-items: center;
+}
+.service-section {
+  background-color: rgb(49, 47, 47);
+  height: 100vh;
+  position: relative;
+  /* align-content: space-evenly; */
+}
+
+.service-intro {
+  /* border: 9px solid yellow; */
+  width: 40%;
+  color: white;
+  left: 10%;
+  position: absolute;
+}
+.flex1{
+     /* align-content: space-evenly; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    top: 30%;
+}
+
+.box1{
+    background-color: rgb(11, 153, 242);
+    border: 2px solid ;
+    background-color: rgb(11, 153, 242);
+    color: white;
+    width: 30%;
+    height: 40%;
+    /* left: 10%;
+    top: 30%; */
+    position: relative;
+    padding: auto;
+    text-decoration: none;
+    
+}
+.box1 p{
+    color: white;
+}
+.box2{
+    background-color: rgb(11, 153, 242);
+    border: 2px solid ;
+    background-color: rgb(11, 153, 242);
+    color: white;
+    width: 30%;
+    height: 40%;
+    /* left: 10%;
+    top: 60%; */
+    position: relative;
+    padding: auto;
+    text-decoration: none;
+
+}
+
+.box2 p{
+    color: white;
+}
+.box3{
+    background-color: rgb(11, 153, 242);
+    border: 2px solid ;
+    background-color: rgb(11, 153, 242);
+    color: white;
+    width: 30%;
+    height: 40%;
+    /* left: 40%;
+    top: 20%; */
+    align-content: center;
+    position: relative;
+    padding: auto;
+    text-decoration: none;
+
+}
+
+.box3 p{
+    color: white;
+}
+.box4{
+    background-color: rgb(11, 153, 242);
+    border: 2px solid ;
+    background-color: rgb(11, 153, 242);
+    color: white;
+    width: 30%;
+    height: 40%;
+    /* left: 40%;
+    top: 20%; */
+    align-content: center;
+    position: relative;
+    padding: auto;
+    text-decoration: none;
+
+}
+
+.box4 p{
+    color: white;
+}
