@@ -1,0 +1,43 @@
+.transform {
+  /* transform */
+  /* 2d dimentional */
+  /* 3d dimentaional */
+
+  /* transform: skew();
+    transform: rotate();
+    transform: translate();
+    transform: scale(); */
+
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+
+  /* transform: translate() ; */
+  /* transform: translateX(500px); */
+  /* transform: translateY(500px); */
+}
+
+.transform:hover {
+  /* transform: translateX(500px); */
+  /* transform: translate(500PX,200px); */
+  /* transform: perspective(1000px) translateZ(-500px); */
+
+
+  /* transform: skewY(45deg); */
+  /* transform: skewX(25deg); */
+
+  /* transform: rotateX(75deg); */
+  /* transform: rotateY(75deg); */
+  /* transform: rotateX(96deg); */
+  /* transform: rotateY(80deg); */
+  /* transform: rotateZ(96deg); */
+
+
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+
+  /* transform: perspective(100px) rotateX(45deg) scaleZ(5); */
+
+  
+}
