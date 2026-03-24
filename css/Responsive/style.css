@@ -1,0 +1,59 @@
+.Responsive {
+  border: 2px solid black;
+  height: 300px;
+}
+
+/* @media (width:500px){
+    .Responsive{
+        background-color: black;
+        color: white;
+        border: 2px solid red;
+        padding: 10px;
+        font-size: 30px;
+
+    }
+} */
+
+@media (min-width:500px){
+    .Responsive{
+        background-color: rgb(25, 232, 90);
+        color: white;
+        border: 2px solid red;
+        padding: 10px;
+        font-size: 30px;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:500px){
+    .Responsive{
+        background-color: rgb(6, 38, 222);
+        color: white;
+        border: 2px solid red;
+        padding: 10px;
+        font-size: 30px;
+
+    }
+}
+
+@media (min-width:500px) and (max-width:1000px){
+    .Responsive{
+        background-color: rgb(6, 204, 230);
+        color: white;
+        border: 2px solid red;
+        padding: 10px;
+        font-size: 30px;
+
+    }
+}
+
+@media  (min-width:1000px){
+    .Responsive{
+        background-color: rgb(222, 210, 49);
+        color: white;
+        border: 2px solid red;
+        padding: 10px;
+        font-size: 30px;
+
+    }
+}
